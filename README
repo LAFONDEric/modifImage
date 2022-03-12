@@ -1,0 +1,10 @@
+#Se qu'il faut ecrire dans invite pour compiler
+nvcc -ccbin "D:\visual studio\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64" kernels.cu main.cpp lodepng.cpp helpers.cpp SansKernel.cpp -o ../imageModifieur.exe
+
+#Se qu'il faut ecrire dans l'invite de commande pour éxécuter
+.\imageModifieur.exe Photo.png Photo_sotie.png
+
+/!\ le contour et la netterter ne marche qu'avec le Cpu
+
+L'option pour sortir les deux facon ne sert a rien pour le moment on vera plutart pour la difference de temps
+ 
